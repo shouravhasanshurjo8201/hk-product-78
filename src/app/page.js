@@ -23,7 +23,7 @@ export default function Home() {
         </ul>
       </section>
 
-      {/* 4️ Services Section */}
+      {/* 4️ Services Section */} 
       <section>
         <h2 className="text-3xl font-bold mb-2">Our Services</h2>
         <p>We offer product listing, details, and admin controls for logged-in users.</p>
