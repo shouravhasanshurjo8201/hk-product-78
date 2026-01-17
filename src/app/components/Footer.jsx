@@ -9,9 +9,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
 
         <div className="space-y-4">
-          <h2 className="text-2xl font-bold text-white tracking-tight">
-            H<span className="text-blue-500">K</span>
-          </h2>
+          <img src="/logo.png" alt="logo" className="h-12 w-12" />
           <p className="text-sm leading-relaxed">
             Build, manage, and scale your ideas with our secure platform. Designed for modern developers and creators.
           </p>

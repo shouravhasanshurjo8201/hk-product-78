@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
-import { LogOut, LayoutDashboard, List, ShieldCheck } from "lucide-react";
+import { LogOut, LayoutDashboard, List } from "lucide-react";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -12,8 +12,8 @@ export default function Navbar() {
   const getLinkStyle = (path) => {
     const isActive = pathname === path;
     return `relative px-4 py-2 flex items-center gap-2 transition-all duration-300 rounded-xl text-sm font-bold ${isActive
-        ? "text-white bg-blue-500/10 shadow-[0_4px_12px_rgba(0,0,0,0.1)]"
-        : "text-blue-100 hover:text-white hover:bg-white/10"
+      ? "text-white bg-blue-500/10 shadow-[0_4px_12px_rgba(0,0,0,0.1)]"
+      : "text-blue-100 hover:text-white hover:bg-white/10"
       }`;
   };
 
@@ -21,17 +21,17 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-blue-700/80 backdrop-blur-md border-b border-white/10 shadow-lg">
       <div className="container mx-auto px-4 lg:px-12 py-3 flex justify-between items-center">
 
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="bg-white/40 text-blue-700 w-10 h-10 flex items-center justify-center rounded-2xl font-black text-2xl shadow-xl group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
-            H.K
-          </div>
+        <div className="flex items-center gap-3  group">
+          <Link href="/">
+            <img src="/logo.png" alt="logo" className="h-12 w-12" />
+          </Link>
           <div className="hidden md:flex  flex-col">
             <h1 className="font-bold text-lg leading-none text-white tracking-tight">
               <span className="text-blue-300 font-light">Workflow</span>
             </h1>
             <span className="text-[10px] text-blue-200/60 font-medium uppercase tracking-[0.2em]">Management</span>
           </div>
-        </Link>
+        </div>
 
         <div className="flex items-center gap-2 md:gap-6">
           <div className="flex items-center gap-1 bg-blue-400/20 p-1.5 rounded-2xl border border-white/5 shadow-inner">
@@ -57,8 +57,8 @@ export default function Navbar() {
               <Link
                 href="/login"
                 className={`px-6 py-2.5 rounded-xl text-sm font-bold transition-all active:scale-95 flex items-center gap-2 ${pathname === "/login"
-                    ? "bg-white text-blue-700 shadow-xl shadow-white/10"
-                    : "text-white border border-white/30 hover:bg-white/10"
+                  ? "bg-white text-blue-700 shadow-xl shadow-white/10"
+                  : "text-white border border-white/30 hover:bg-white/10"
                   }`}
               >
                 Login

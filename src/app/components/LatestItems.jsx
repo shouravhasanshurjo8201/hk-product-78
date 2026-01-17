@@ -12,7 +12,7 @@ export default function LatestItems() {
         fetch("/items.json")
             .then((res) => res.json())
             .then((data) => {
-                const latest = data.slice(-8).reverse();
+                const latest = data.slice(0, 8);
                 setItems(latest);
                 setLoading(false);
             })
