@@ -1,0 +1,130 @@
+[
+    {
+        "id": "1",
+        "name": "Laptop",
+        "description": "HP Elitebook 840 G6",
+        "price": 55000,
+        "category": "Electronics",
+        "image": "https://i.ibb.co/jzQKZ0L/laptop.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Phone",
+        "description": "Oppo A77",
+        "price": 18000,
+        "category": "Electronics",
+        "image": "https://i.ibb.co/7r1xjzC/phone.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Book",
+        "description": "JavaScript Guide Book",
+        "price": 450,
+        "category": "Books",
+        "image": "https://i.ibb.co/qDk9FzR/book.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Headphone",
+        "description": "Wireless Bluetooth Headphone",
+        "price": 2200,
+        "category": "Electronics",
+        "image": "https://i.ibb.co/S5YgJdR/headphone.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Keyboard",
+        "description": "Mechanical RGB Keyboard",
+        "price": 3200,
+        "category": "Electronics",
+        "image": "https://i.ibb.co/9vkqRrY/keyboard.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Mouse",
+        "description": "Gaming Mouse 16000 DPI",
+        "price": 1200,
+        "category": "Electronics",
+        "image": "https://i.ibb.co/J2L2JtT/mouse.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Notebook",
+        "description": "Premium Writing Notebook",
+        "price": 180,
+        "category": "Books",
+        "image": "https://i.ibb.co/8sRkWJw/notebook.jpg"
+    },
+    {
+        "id": "8",
+        "name": "T-shirt",
+        "description": "Cotton Casual T-shirt",
+        "price": 650,
+        "category": "Fashion",
+        "image": "https://i.ibb.co/jJtK0fM/tshirt.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Shoes",
+        "description": "Comfortable Running Shoes",
+        "price": 2500,
+        "category": "Fashion",
+        "image": "https://i.ibb.co/9nggT4p/shoes.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Backpack",
+        "description": "Waterproof Laptop Backpack",
+        "price": 1700,
+        "category": "Fashion",
+        "image": "https://i.ibb.co/9p3JdCz/bag.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Smart Watch",
+        "description": "Fitness Tracking Smart Watch",
+        "price": 3500,
+        "category": "Electronics",
+        "image": "https://i.ibb.co/1vQj8RB/watch.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Power Bank",
+        "description": "20000mAh Fast Charging Powerbank",
+        "price": 1900,
+        "category": "Electronics",
+        "image": "https://i.ibb.co/G7H8s1x/powerbank.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Water Bottle",
+        "description": "Stainless Steel Bottle",
+        "price": 500,
+        "category": "Lifestyle",
+        "image": "https://i.ibb.co/fM0s3MN/bottle.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Sunglasses",
+        "description": "Stylish UV Protection Glass",
+        "price": 900,
+        "category": "Fashion",
+        "image": "https://i.ibb.co/Zf9pH1R/sunglass.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Desk Lamp",
+        "description": "LED Study Desk Lamp",
+        "price": 850,
+        "category": "Lifestyle",
+        "image": "https://i.ibb.co/X8D7Zxg/lamp.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Calculator",
+        "description": "Scientific Calculator for Students",
+        "price": 750,
+        "category": "Education",
+        "image": "https://i.postimg.cc/XNBNZPdB/Hero-1-removebg-preview.png"
+    }
+]
