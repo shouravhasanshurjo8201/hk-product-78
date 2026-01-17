@@ -5,6 +5,7 @@ import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import FAQSection from "./components/FAQSection";
 import ContactSection from "./components/ContactSection";
+import LatestItems from "./components/LatestItems";
 
 export default function Home() {
   return (
@@ -14,6 +15,10 @@ export default function Home() {
       </section>
       <section id="about">
         <AboutSection />
+      </section>
+
+      <section id="latestItems">
+        <LatestItems />
       </section>
 
       <section id="features">

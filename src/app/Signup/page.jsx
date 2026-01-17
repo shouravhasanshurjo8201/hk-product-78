@@ -30,7 +30,7 @@ export default function SignupPage() {
                 id: loadingToast,
             });
 
-            router.push("/");
+            router.push("/login");
         } catch (error) {
             toast.error("Something went wrong. Please try again.", { id: loadingToast });
         } finally {

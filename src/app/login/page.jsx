@@ -53,10 +53,7 @@ export default function LoginPage() {
 
             if (res?.ok) {
                 toast.success("Login Successful!", { id: loadingToast });
-                router.push("/");
-                setTimeout(() => {
-                    window.location.reload();
-                }, 500);
+                router.push("/items");
             } else {
                 toast.error("Invalid email or password", { id: loadingToast });
             }
@@ -71,7 +68,7 @@ export default function LoginPage() {
     const handleGoogleLogin = async () => {
         setIsGoogleLoading(true);
         try {
-            await signIn("google", { callbackUrl: "/" });
+            await signIn("google", { callbackUrl: "/items" });
         } catch (error) {
             toast.error("Google login failed");
             setIsGoogleLoading(false);
