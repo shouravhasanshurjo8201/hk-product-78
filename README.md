@@ -13,7 +13,7 @@ It implements a Content Gating system where the product list is publicly accessi
 Follow these steps to run the project locally:
 
 1. Clone the repository
-git clone https://github.com/your-username/hk-project.git
+git clone https://github.com/shouravhasanshurjo8201/hk-product-78
 cd hk-project
 
 2. Install dependencies
