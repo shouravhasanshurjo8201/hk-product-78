@@ -16,7 +16,7 @@ export default function HeroSection() {
 
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-slate-900 leading-[1.1] tracking-tight">
                             Welcome To <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-cyan-500">
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 via-indigo-500 to-cyan-500">
                                 H.K Application
                             </span>
                         </h1>
@@ -33,7 +33,6 @@ export default function HeroSection() {
                                 Get Started Free
                                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                             </Link>
-
                         </div>
 
                         <div className="pt-10 flex flex-wrap justify-center lg:justify-start gap-8 border-t border-slate-200">
