@@ -1,5 +1,4 @@
 "use client";
-
 import { CheckCircle2, Award, Users } from "lucide-react";
 
 export default function AboutSection() {
@@ -13,7 +12,6 @@ export default function AboutSection() {
                         <div className="absolute -bottom-10 -right-10 w-40 h-40  rounded-full mix-blend-multiply filter blur-2xl opacity-60 animate-pulse delay-1000" />
 
                         <div className="relative group">
-                           
                             <img
                                 src="https://i.postimg.cc/XNBNZPdB/Hero-1-removebg-preview.png"
                                 alt="H.K  Team Work"
@@ -72,8 +70,6 @@ export default function AboutSection() {
                                     <span className="text-sm text-slate-500 font-medium">Customer Support</span>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
