@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Quote, Star } from "lucide-react";
@@ -60,7 +59,7 @@ export default function TestimonialsSection() {
                                 ))}
                             </div>
 
-                            <p className="text-slate-600 mb-2 italic leading-relaxed flex-grow">
+                            <p className="text-slate-600 mb-2 italic leading-relaxed grow">
                                 "{testimonial.message}"
                             </p>
 
