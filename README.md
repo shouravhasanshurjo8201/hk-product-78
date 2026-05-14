@@ -8,30 +8,6 @@ It delivers a clean user experience with secure authentication and smart content
 This project is a feature-rich inventory dashboard where users can browse product listings, search, filter by category, and sort by price.
 It implements a Content Gating system where the product list is publicly accessible, but sensitive pages such as product details and management features are only available to authenticated users.
 
-## Setup & Installation
-
-Follow these steps to run the project locally:
-
-1. Clone the repository
-git clone https://github.com/shouravhasanshurjo8201/hk-product-78
-cd hk-project
-
-2. Install dependencies
-npm install
-
-3. Configure environment variables
-
-Create a .env.local file in the root directory and add:
-
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your_random_secret_string
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-4. Run the development server
-npm run dev
-
-
 ## Implemented Features
 
 Dual Authentication System
